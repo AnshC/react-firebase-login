@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkCEv58m-wi40.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+
+  
+.homepage-content{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-image: url('/img/cool-background (1).png');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p, h1, h2, h3, a, span, input{
+    font-family: Quicksand;
+    color:white;
+}
+
+.lrb{
+    border: 2px solid white;
+    padding:6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: border-radius, 0.5s ease;
+}
+
+.lrb:hover{
+    border-radius: 15px;
+}
+.databutton{
+    border: 2px solid white;
+    padding:6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.5s ease;
+}
+
+.databutton:hover{
+    background-color: white;
+    color:black
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

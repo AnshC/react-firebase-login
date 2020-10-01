@@ -1,0 +1,54 @@
+.login-content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/cool-background (2).png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 60vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-head{
+    color:black;
+}
+
+.input{
+    text-align: left;
+    padding:7px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color:black;
+}
+
+.input:focus{
+    outline: none;
+    border:2px solid rgb(255, 0, 0);
+}
+
+.login-button{
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: black;
+    border-radius: 10px;
+    transition: background-color, border-radius 0.4s ease;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: rgb(255, 43, 124);
+    border-radius: 15px;
+}

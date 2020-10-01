@@ -1,0 +1,67 @@
+
+.logoutbutton{
+    font-size: 20px;
+    cursor: pointer;
+    border:2px white solid;
+    padding: 7px;
+    padding-left:25px;
+    padding-right:25px;
+    transition: border-radius 0.5s ease;
+}
+
+.logoutbutton:hover{
+    border-radius: 10px;
+}
+
+#dashboard-content{
+    display: none;
+    background-image: url('/img/cool-background (3).png');
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dataSubmitTitle, #dataSubmitBody{
+    text-align: left;
+    padding:7px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    color:black;
+}
+
+#dataSubmitTitle:focus, #dataSubmitBody:focus{
+    outline: none;
+    border: 2px crimson solid;
+}
+
+.data-frame{
+    border: 2px white solid;
+    width: 50%;
+}
+
+.create-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadDataP{
+    margin-top: 7px;
+    padding-top:7px;
+}
+.uploadData{
+    background-color: black;
+    padding:7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.uploadData:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
