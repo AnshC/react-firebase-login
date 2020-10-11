@@ -8,11 +8,8 @@ import './data.css';
 import {jsdata} from './firedataview'
 
 function Datapage () {
-    
     useEffect(()=>{
-        if (window.location.pathname === '/data'){
             jsdata();
-        }
     },[])
 
     return(
